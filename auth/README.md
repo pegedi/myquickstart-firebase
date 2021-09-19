@@ -32,7 +32,7 @@ Getting Started
      - For **Facebook**, **Twitter** and **GitHub** you will need to create an application as a developer on their respective developer platform, whitelist `https://<project_id>.firebaseapp.com/__/auth/handler` for auth redirects and enable and setup the app's credentials in the **Firebase Console > Authentication > SIGN-IN METHOD**.
  1. You must have the [Firebase CLI](https://firebase.google.com/docs/cli/) installed. If you don't have it install it with `npm install -g firebase-tools` and then configure it with `firebase login`.
  1. On the command line, `cd` into the `quickstart-js/auth` subdirectory.
- 1. Run `firebase use --add` and select your Firebase project.
+ 1. Run `firebase use --add` and select your Firebase project...
 
 To run the sample app locally during development:
  1. Run `firebase serve`.
